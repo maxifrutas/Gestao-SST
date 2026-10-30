@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ao imprimir a tela, esconde menus e botões */
+@media print {
+  .no-print { display: none !important; }
+}
