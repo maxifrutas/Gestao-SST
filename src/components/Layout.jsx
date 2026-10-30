@@ -5,14 +5,14 @@ import { Botao } from "./ui";
 
 const MENU = [
   ["/", "Painel de exames"],
-  ["/aso", "Registrar ASO"],
-  ["/entrega-epi", "Entrega de EPI"],
-  ["/funcionarios", "Funcionários"],
   ["/empresas", "Empresas"],
   ["/setores", "Setores"],
   ["/ghes", "Cargos / GHE"],
+  ["/funcionarios", "Funcionários"],
   ["/exames-catalogo", "Catálogo de exames"],
   ["/epis", "Catálogo de EPIs"],
+  ["/aso", "Registrar ASO"],
+  ["/entrega-epi", "Entrega de EPI"],
 ];
 
 export default function Layout() {
